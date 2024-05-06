@@ -37,3 +37,4 @@ D:\My Work\MY PROJECT\Carsties\src\AuctionService\bin\Debug\net7.0\Mono.TextTemp
 D:\My Work\MY PROJECT\Carsties\src\AuctionService\bin\Debug\net7.0\Npgsql.dll
 D:\My Work\MY PROJECT\Carsties\src\AuctionService\bin\Debug\net7.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
 D:\My Work\MY PROJECT\Carsties\src\AuctionService\bin\Debug\net7.0\System.CodeDom.dll
+D:\My Work\MY PROJECT\Carsties\src\AuctionService\obj\Debug\net7.0\AuctionService.sourcelink.json
