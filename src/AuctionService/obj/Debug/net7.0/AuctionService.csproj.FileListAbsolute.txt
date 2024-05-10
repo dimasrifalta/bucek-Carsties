@@ -38,3 +38,10 @@ D:\My Work\MY PROJECT\Carsties\src\AuctionService\bin\Debug\net7.0\Npgsql.dll
 D:\My Work\MY PROJECT\Carsties\src\AuctionService\bin\Debug\net7.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
 D:\My Work\MY PROJECT\Carsties\src\AuctionService\bin\Debug\net7.0\System.CodeDom.dll
 D:\My Work\MY PROJECT\Carsties\src\AuctionService\obj\Debug\net7.0\AuctionService.sourcelink.json
+D:\My Work\MY PROJECT\Carsties\src\AuctionService\bin\Debug\net7.0\MassTransit.dll
+D:\My Work\MY PROJECT\Carsties\src\AuctionService\bin\Debug\net7.0\MassTransit.Abstractions.dll
+D:\My Work\MY PROJECT\Carsties\src\AuctionService\bin\Debug\net7.0\MassTransit.EntityFrameworkCoreIntegration.dll
+D:\My Work\MY PROJECT\Carsties\src\AuctionService\bin\Debug\net7.0\MassTransit.RabbitMqTransport.dll
+D:\My Work\MY PROJECT\Carsties\src\AuctionService\bin\Debug\net7.0\RabbitMQ.Client.dll
+D:\My Work\MY PROJECT\Carsties\src\AuctionService\bin\Debug\net7.0\Contracts.dll
+D:\My Work\MY PROJECT\Carsties\src\AuctionService\bin\Debug\net7.0\Contracts.pdb

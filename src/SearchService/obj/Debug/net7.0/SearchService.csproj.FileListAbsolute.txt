@@ -46,3 +46,9 @@ D:\My Work\MY PROJECT\Carsties\src\SearchService\obj\Debug\net7.0\SearchService.
 D:\My Work\MY PROJECT\Carsties\src\SearchService\obj\Debug\net7.0\SearchService.genruntimeconfig.cache
 D:\My Work\MY PROJECT\Carsties\src\SearchService\obj\Debug\net7.0\ref\SearchService.dll
 D:\My Work\MY PROJECT\Carsties\src\SearchService\bin\Debug\net7.0\Data\auctions.json
+D:\My Work\MY PROJECT\Carsties\src\SearchService\bin\Debug\net7.0\MassTransit.dll
+D:\My Work\MY PROJECT\Carsties\src\SearchService\bin\Debug\net7.0\MassTransit.Abstractions.dll
+D:\My Work\MY PROJECT\Carsties\src\SearchService\bin\Debug\net7.0\MassTransit.RabbitMqTransport.dll
+D:\My Work\MY PROJECT\Carsties\src\SearchService\bin\Debug\net7.0\RabbitMQ.Client.dll
+D:\My Work\MY PROJECT\Carsties\src\SearchService\bin\Debug\net7.0\Contracts.dll
+D:\My Work\MY PROJECT\Carsties\src\SearchService\bin\Debug\net7.0\Contracts.pdb
