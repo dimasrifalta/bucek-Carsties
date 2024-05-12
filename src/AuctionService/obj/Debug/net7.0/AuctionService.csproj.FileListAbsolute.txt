@@ -45,3 +45,10 @@ D:\My Work\MY PROJECT\Carsties\src\AuctionService\bin\Debug\net7.0\MassTransit.R
 D:\My Work\MY PROJECT\Carsties\src\AuctionService\bin\Debug\net7.0\RabbitMQ.Client.dll
 D:\My Work\MY PROJECT\Carsties\src\AuctionService\bin\Debug\net7.0\Contracts.dll
 D:\My Work\MY PROJECT\Carsties\src\AuctionService\bin\Debug\net7.0\Contracts.pdb
+D:\My Work\MY PROJECT\Carsties\src\AuctionService\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\My Work\MY PROJECT\Carsties\src\AuctionService\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\My Work\MY PROJECT\Carsties\src\AuctionService\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+D:\My Work\MY PROJECT\Carsties\src\AuctionService\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+D:\My Work\MY PROJECT\Carsties\src\AuctionService\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\My Work\MY PROJECT\Carsties\src\AuctionService\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+D:\My Work\MY PROJECT\Carsties\src\AuctionService\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
