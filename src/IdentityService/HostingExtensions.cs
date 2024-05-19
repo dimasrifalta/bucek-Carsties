@@ -28,21 +28,26 @@ internal static class HostingExtensions
                 options.Events.RaiseFailureEvents = true;
                 options.Events.RaiseSuccessEvents = true;
 
+                if (builder.Environment.IsEnvironment("Docker"))
+                {
+                    options.IssuerUri = "identity-svc";
+                }
+
                 // see https://docs.duendesoftware.com/identityserver/v6/fundamentals/resources/
-               //options.EmitStaticAudienceClaim = true;
+                // options.EmitStaticAudienceClaim = true;
             })
             .AddInMemoryIdentityResources(Config.IdentityResources)
             .AddInMemoryApiScopes(Config.ApiScopes)
             .AddInMemoryClients(Config.Clients)
             .AddAspNetIdentity<ApplicationUser>()
             .AddProfileService<CustomProfileService>();
-        
-        builder.Services.AddAuthentication();
 
-        builder.Services.ConfigureApplicationCookie(options =>
+        builder.Services.ConfigureApplicationCookie(options => 
         {
             options.Cookie.SameSite = SameSiteMode.Lax;
         });
+        
+        builder.Services.AddAuthentication();
 
         return builder.Build();
     }
