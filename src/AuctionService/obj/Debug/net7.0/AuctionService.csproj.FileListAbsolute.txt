@@ -52,3 +52,10 @@ D:\My Work\MY PROJECT\Carsties\src\AuctionService\bin\Debug\net7.0\Microsoft.Ide
 D:\My Work\MY PROJECT\Carsties\src\AuctionService\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 D:\My Work\MY PROJECT\Carsties\src\AuctionService\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
 D:\My Work\MY PROJECT\Carsties\src\AuctionService\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+D:\My Work\MY PROJECT\Carsties\src\AuctionService\bin\Debug\net7.0\Google.Protobuf.dll
+D:\My Work\MY PROJECT\Carsties\src\AuctionService\bin\Debug\net7.0\Grpc.AspNetCore.Server.dll
+D:\My Work\MY PROJECT\Carsties\src\AuctionService\bin\Debug\net7.0\Grpc.AspNetCore.Server.ClientFactory.dll
+D:\My Work\MY PROJECT\Carsties\src\AuctionService\bin\Debug\net7.0\Grpc.Core.Api.dll
+D:\My Work\MY PROJECT\Carsties\src\AuctionService\bin\Debug\net7.0\Grpc.Net.Client.dll
+D:\My Work\MY PROJECT\Carsties\src\AuctionService\bin\Debug\net7.0\Grpc.Net.ClientFactory.dll
+D:\My Work\MY PROJECT\Carsties\src\AuctionService\bin\Debug\net7.0\Grpc.Net.Common.dll
