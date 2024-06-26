@@ -6,17 +6,17 @@ namespace NotificationService;
 
 public class AuctionCreatedConsumer : IConsumer<AuctionCreated>
 {
-
     private readonly IHubContext<NotificationHub> _hubContext;
 
     public AuctionCreatedConsumer(IHubContext<NotificationHub> hubContext)
     {
         _hubContext = hubContext;
     }
+
     public async Task Consume(ConsumeContext<AuctionCreated> context)
     {
-        Console.WriteLine($"Auction created message received");
+        Console.WriteLine("--> auction created message received");
 
-        await _hubContext.Clients.All.SendAsync("Auction created", context.Message);
+        await _hubContext.Clients.All.SendAsync("AuctionCreated", context.Message);
     }
 }
