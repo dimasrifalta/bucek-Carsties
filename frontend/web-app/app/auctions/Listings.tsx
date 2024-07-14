@@ -23,15 +23,13 @@ export default function Listings() {
         seller: state.seller,
         winner: state.winner
     }), shallow)
-
     const data = useAuctionStore(state => ({
         auctions: state.auctions,
         totalCount: state.totalCount,
         pageCount: state.pageCount
-    }), shallow
-    );
-
+    }), shallow);
     const setData = useAuctionStore(state => state.setData);
+
     const setParams = useParamsStore(state => state.setParams);
     const url = qs.stringifyUrl({ url: '', query: params })
 
@@ -44,7 +42,7 @@ export default function Listings() {
             setData(data);
             setLoading(false);
         })
-    }, [url])
+    }, [url, setData])
 
     if (loading) return <h3>Loading...</h3>
 
