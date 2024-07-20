@@ -794,6 +794,19 @@
           }
         }
       },
+      "Polly/7.2.4": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Polly.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Polly.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "Serilog/2.10.0": {
         "type": "package",
         "compile": {
@@ -2150,6 +2163,31 @@
         "postgresql.png"
       ]
     },
+    "Polly/7.2.4": {
+      "sha512": "bw00Ck5sh6ekduDE3mnCo1ohzuad946uslCDEENu3091+6UKnBuKLo4e+yaNcCzXxOZCXWY2gV4a35+K1d4LDA==",
+      "type": "package",
+      "path": "polly/7.2.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "lib/net461/Polly.dll",
+        "lib/net461/Polly.pdb",
+        "lib/net461/Polly.xml",
+        "lib/net472/Polly.dll",
+        "lib/net472/Polly.pdb",
+        "lib/net472/Polly.xml",
+        "lib/netstandard1.1/Polly.dll",
+        "lib/netstandard1.1/Polly.pdb",
+        "lib/netstandard1.1/Polly.xml",
+        "lib/netstandard2.0/Polly.dll",
+        "lib/netstandard2.0/Polly.pdb",
+        "lib/netstandard2.0/Polly.xml",
+        "package-icon.png",
+        "polly.7.2.4.nupkg.sha512",
+        "polly.nuspec"
+      ]
+    },
     "Serilog/2.10.0": {
       "sha512": "+QX0hmf37a0/OZLxM3wL7V6/ADvC1XihXN4Kq/p6d8lCPfgkRdiuhbWlMaFjR9Av0dy5F0+MBeDmDdRZN/YwQA==",
       "type": "package",
@@ -2543,6 +2581,7 @@
       "Microsoft.AspNetCore.Identity.UI >= 7.0.8",
       "Microsoft.EntityFrameworkCore.Tools >= 7.0.8",
       "Npgsql.EntityFrameworkCore.PostgreSQL >= 7.0.4",
+      "Polly >= 7.2.4",
       "Serilog.AspNetCore >= 6.0.0"
     ]
   },
@@ -2552,11 +2591,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\My Work\\MY PROJECT\\Carsties\\src\\IdentityService\\IdentityService.csproj",
+      "projectUniqueName": "d:\\My Work\\MY PROJECT\\Carsties\\src\\IdentityService\\IdentityService.csproj",
       "projectName": "IdentityService",
-      "projectPath": "D:\\My Work\\MY PROJECT\\Carsties\\src\\IdentityService\\IdentityService.csproj",
+      "projectPath": "d:\\My Work\\MY PROJECT\\Carsties\\src\\IdentityService\\IdentityService.csproj",
       "packagesPath": "C:\\Users\\dimas\\.nuget\\packages\\",
-      "outputPath": "D:\\My Work\\MY PROJECT\\Carsties\\src\\IdentityService\\obj\\",
+      "outputPath": "d:\\My Work\\MY PROJECT\\Carsties\\src\\IdentityService\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\dimas\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -2579,6 +2618,11 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -2615,6 +2659,10 @@
             "target": "Package",
             "version": "[7.0.4, )"
           },
+          "Polly": {
+            "target": "Package",
+            "version": "[7.2.4, )"
+          },
           "Serilog.AspNetCore": {
             "target": "Package",
             "version": "[6.0.0, )"
@@ -2631,6 +2679,24 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[7.0.20, 7.0.20]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[7.0.20, 7.0.20]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[7.0.20, 7.0.20]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[7.0.20, 7.0.20]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -2639,7 +2705,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303\\RuntimeIdentifierGraph.json"
       }
     }
   }

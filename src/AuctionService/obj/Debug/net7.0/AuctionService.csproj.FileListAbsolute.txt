@@ -19,7 +19,6 @@ D:\My Work\MY PROJECT\Carsties\src\AuctionService\obj\Debug\net7.0\staticwebasse
 D:\My Work\MY PROJECT\Carsties\src\AuctionService\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.AuctionService.props
 D:\My Work\MY PROJECT\Carsties\src\AuctionService\obj\Debug\net7.0\staticwebassets.pack.json
 D:\My Work\MY PROJECT\Carsties\src\AuctionService\obj\Debug\net7.0\scopedcss\bundle\AuctionService.styles.css
-D:\My Work\MY PROJECT\Carsties\src\AuctionService\obj\Debug\net7.0\AuctionService.csproj.CopyComplete
 D:\My Work\MY PROJECT\Carsties\src\AuctionService\obj\Debug\net7.0\AuctionService.dll
 D:\My Work\MY PROJECT\Carsties\src\AuctionService\obj\Debug\net7.0\refint\AuctionService.dll
 D:\My Work\MY PROJECT\Carsties\src\AuctionService\obj\Debug\net7.0\AuctionService.pdb
@@ -59,3 +58,5 @@ D:\My Work\MY PROJECT\Carsties\src\AuctionService\bin\Debug\net7.0\Grpc.Core.Api
 D:\My Work\MY PROJECT\Carsties\src\AuctionService\bin\Debug\net7.0\Grpc.Net.Client.dll
 D:\My Work\MY PROJECT\Carsties\src\AuctionService\bin\Debug\net7.0\Grpc.Net.ClientFactory.dll
 D:\My Work\MY PROJECT\Carsties\src\AuctionService\bin\Debug\net7.0\Grpc.Net.Common.dll
+D:\My Work\MY PROJECT\Carsties\src\AuctionService\bin\Debug\net7.0\Polly.dll
+D:\My Work\MY PROJECT\Carsties\src\AuctionService\obj\Debug\net7.0\AuctionS.72D7E915.Up2Date

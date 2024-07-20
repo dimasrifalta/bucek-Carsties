@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Io3oj/Vu4MlClcA9mKymzCZrk/+g/iY6FH+FqKquLpYcQxyU3wnG28/mjnUA2r+SnESLkTUeFrXS3eAYXLNDlA==",
+  "dgSpecHash": "lGSgvY2LVCs=",
   "success": true,
   "projectFilePath": "D:\\My Work\\MY PROJECT\\Carsties\\src\\NotificationService\\NotificationService.csproj",
   "expectedPackageFiles": [
@@ -24,7 +24,11 @@
     "C:\\Users\\dimas\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
     "C:\\Users\\dimas\\.nuget\\packages\\system.text.encodings.web\\6.0.0\\system.text.encodings.web.6.0.0.nupkg.sha512",
     "C:\\Users\\dimas\\.nuget\\packages\\system.text.json\\6.0.7\\system.text.json.6.0.7.nupkg.sha512",
-    "C:\\Users\\dimas\\.nuget\\packages\\system.threading.channels\\7.0.0\\system.threading.channels.7.0.0.nupkg.sha512"
+    "C:\\Users\\dimas\\.nuget\\packages\\system.threading.channels\\7.0.0\\system.threading.channels.7.0.0.nupkg.sha512",
+    "C:\\Users\\dimas\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.20\\microsoft.netcore.app.ref.7.0.20.nupkg.sha512",
+    "C:\\Users\\dimas\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.20\\microsoft.windowsdesktop.app.ref.7.0.20.nupkg.sha512",
+    "C:\\Users\\dimas\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.20\\microsoft.aspnetcore.app.ref.7.0.20.nupkg.sha512",
+    "C:\\Users\\dimas\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\7.0.20\\microsoft.netcore.app.host.win-x64.7.0.20.nupkg.sha512"
   ],
   "logs": []
 }

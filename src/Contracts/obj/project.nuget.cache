@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "G/vQ0h+xn+SytnBZfUdVyJqMuNniCxSArS/3piTEgmBJaNKGhv+8Dlf0wOVb5x+jbAjAAK/cH0PP6KTVMCI9dA==",
+  "dgSpecHash": "SaSGkfp25lM=",
   "success": true,
   "projectFilePath": "D:\\My Work\\MY PROJECT\\Carsties\\src\\Contracts\\Contracts.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\dimas\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.20\\microsoft.netcore.app.ref.7.0.20.nupkg.sha512",
+    "C:\\Users\\dimas\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.20\\microsoft.windowsdesktop.app.ref.7.0.20.nupkg.sha512",
+    "C:\\Users\\dimas\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.20\\microsoft.aspnetcore.app.ref.7.0.20.nupkg.sha512"
+  ],
   "logs": []
 }

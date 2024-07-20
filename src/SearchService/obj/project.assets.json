@@ -516,7 +516,7 @@
           }
         }
       },
-      "Polly/7.2.3": {
+      "Polly/7.2.4": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/Polly.dll": {
@@ -1543,14 +1543,14 @@
         "runtimes/win/native/mongocrypt.dll"
       ]
     },
-    "Polly/7.2.3": {
-      "sha512": "DeCY0OFbNdNxsjntr1gTXHJ5pKUwYzp04Er2LLeN3g6pWhffsGuKVfMBLe1lw7x76HrPkLxKEFxBlpRxS2nDEQ==",
+    "Polly/7.2.4": {
+      "sha512": "bw00Ck5sh6ekduDE3mnCo1ohzuad946uslCDEENu3091+6UKnBuKLo4e+yaNcCzXxOZCXWY2gV4a35+K1d4LDA==",
       "type": "package",
-      "path": "polly/7.2.3",
+      "path": "polly/7.2.4",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "Polly.png",
+        "README.md",
         "lib/net461/Polly.dll",
         "lib/net461/Polly.pdb",
         "lib/net461/Polly.xml",
@@ -1563,7 +1563,8 @@
         "lib/netstandard2.0/Polly.dll",
         "lib/netstandard2.0/Polly.pdb",
         "lib/netstandard2.0/Polly.xml",
-        "polly.7.2.3.nupkg.sha512",
+        "package-icon.png",
+        "polly.7.2.4.nupkg.sha512",
         "polly.nuspec"
       ]
     },
@@ -2091,7 +2092,8 @@
       "Contracts >= 1.0.0",
       "MassTransit.RabbitMQ >= 8.0.16",
       "Microsoft.Extensions.Http.Polly >= 7.0.8",
-      "MongoDB.Entities >= 22.0.0"
+      "MongoDB.Entities >= 22.0.0",
+      "Polly >= 7.2.4"
     ]
   },
   "packageFolders": {
@@ -2131,6 +2133,11 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -2152,6 +2159,10 @@
           "MongoDB.Entities": {
             "target": "Package",
             "version": "[22.0.0, )"
+          },
+          "Polly": {
+            "target": "Package",
+            "version": "[7.2.4, )"
           }
         },
         "imports": [
@@ -2165,6 +2176,24 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[7.0.20, 7.0.20]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[7.0.20, 7.0.20]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[7.0.20, 7.0.20]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[7.0.20, 7.0.20]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -2173,7 +2202,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303\\RuntimeIdentifierGraph.json"
       }
     }
   }
