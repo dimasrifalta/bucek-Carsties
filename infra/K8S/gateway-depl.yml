@@ -14,12 +14,12 @@ spec:
       containers:
       - name: gateway-svc
         image: dimasrifalta/gateway-svc
-        imagePullPolicy: Never
+        imagePullPolicy: Always
         env:
           - name: ClientApp
-            value: https://app.carsties.com
+            value: https://app.carsties.store
           - name: IdentityServiceUrl
-            value: https://id.bucek.software
+            value: https://id.dimasrifalta.com
 ---
 apiVersion: v1
 kind: Service
