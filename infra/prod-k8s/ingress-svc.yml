@@ -10,11 +10,11 @@ spec:
   ingressClassName: nginx
   tls:
   - hosts:
-    - app.carsties.store
+    - api.bucek.software
     - api.carsties.store
     secretName: carsties-tls
   rules:
-  - host: app.carsties.store
+  - host: app.bucek.software
     http:
       paths:
       - pathType: Prefix
