@@ -1,2 +1,1 @@
-infra/dev-k8s/dev-secrets.yml
 infra/prod-k8s/prod-secrets.yml
