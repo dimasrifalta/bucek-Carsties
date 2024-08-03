@@ -10,8 +10,8 @@ spec:
   ingressClassName: nginx
   tls:
   - hosts:
+    - app.bucek.software
     - api.bucek.software
-    - api.carsties.store
     secretName: carsties-tls
   rules:
   - host: app.bucek.software
@@ -24,7 +24,7 @@ spec:
             name: webapp-clusterip
             port: 
               number: 3000
-  - host: api.carsties.store
+  - host: api.bucek.software
     http:
       paths:
       - pathType: Prefix
