@@ -17,9 +17,9 @@ spec:
         imagePullPolicy: Always
         env:
           - name: ClientApp
-            value: https://app.carsties.store
+            value: app.bucek.software
           - name: IdentityServiceUrl
-            value: https://id.dimasrifalta.com
+            value: https://id.bucek.software
 ---
 apiVersion: v1
 kind: Service
